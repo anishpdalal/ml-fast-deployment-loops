@@ -27,5 +27,6 @@ jobs:
           comment-on-pr: true
           github-token: ${{ secrets.TOKEN }}
           work-dir: infra
+          upsert: true
         env:
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
